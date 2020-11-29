@@ -3,13 +3,15 @@ A maze generator based on <a href="https://en.wikipedia.org/wiki/Maze_generation
 
 
 ## Hacking
+### Editing
+Uhm, your idea might freak out because of [lombok](https://projectlombok.org), please do yourself a favour by adding it to your IDE. 
 - Ensure you have java 11 installed. 
 - You can do by using your favourite cmd tool, run `java -version`
 ![java version](https://github.com/Mmontsheng/Maze-Generator/blob/master/java_version.PNG)
-### Build
+#### Build
 This is a mvn project, so a `mvn clean package` should do.
 
-### Runing
+#### Runing
 - `cd` into `target`
 - Run `java -jar MazeGenerator-jar-with-dependencies.jar`
 - Ew, long jar file name :poop:
