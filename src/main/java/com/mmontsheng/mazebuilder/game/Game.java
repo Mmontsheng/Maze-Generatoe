@@ -1,4 +1,4 @@
-package com.mmontsheng.mazebuilder;
+package com.mmontsheng.mazebuilder.game;
 
 import java.awt.Canvas;
 import java.awt.Graphics;

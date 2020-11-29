@@ -8,7 +8,6 @@ import java.util.Random;
 import java.util.Stack;
 import java.util.logging.Level;
 
-import com.mmontsheng.mazebuilder.Game;
 import com.mmontsheng.mazebuilder.entities.Cell;
 
 public class Controller {

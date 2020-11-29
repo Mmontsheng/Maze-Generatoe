@@ -2,11 +2,9 @@ package com.mmontsheng.mazebuilder.entities;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
-import com.mmontsheng.mazebuilder.Game;
+import com.mmontsheng.mazebuilder.game.Game;
 
 import lombok.Data;
 
