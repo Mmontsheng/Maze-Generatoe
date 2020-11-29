@@ -4,14 +4,18 @@ A maze generator based on <a href="https://en.wikipedia.org/wiki/Maze_generation
 
 
 ## Hacking
+Ensure you have java 11 installed. 
+Using your favourite cmd tool, run `java -version`
+![java version](https://github.com/Mmontsheng/Maze-Generator/blob/master/java_version.PNG)
 ### Build
-Base on java 11, ensure you have java running
 This is a mvn project, so an `mvn clean package` should do.
 
 ### Runing
 - `cd` into `target`
 - Run `java -jar MazeGenerator-jar-with-dependencies.jar`
+- Ew, long jar file name :poop:
+- ![Running instance](https://github.com/Mmontsheng/Maze-Generator/blob/master/maze.PNG)
 ## TODO
 - [X] Build a jar
 - [ ] Dockerize 
-- Have a docker file already, just having problems rendering the GUI of the maze 
+- Already have a docker file, just having problems rendering the GUI of the maze 
