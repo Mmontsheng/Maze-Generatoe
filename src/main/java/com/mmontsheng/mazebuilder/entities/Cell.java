@@ -31,19 +31,22 @@ public class Cell {
         
         if (visited) {
             highlight(g, Color.red);
-            // g.setColor(Color.red);
-            // g.fillRect(x, y, w, w);
         }
         g.setColor(Color.WHITE);
+
+        // TOP
         if (walls[0]) {
             g.drawLine(x, y, x + w, y);
         }
+        // RIGHT
         if (walls[1]) {
             g.drawLine(x + w, y, x + w, y + w);
         }
+        // BOTTOM
         if (walls[2]) {
             g.drawLine(x + w, y + w, x, y + w);
         }
+        // LEFT
         if (walls[3]) {
             g.drawLine(x, y + w, x, y);
         }
